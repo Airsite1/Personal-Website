@@ -1,0 +1,195 @@
+html,
+
+.background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+/*
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23ff4f4f' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23aa0000' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23fa3260' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23b10022' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23f00872' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23b2003d' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23e00085' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23ac0057' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23c90098' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%239e0071' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23aa00aa' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23880088' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+*/
+body {
+    background-color: #000000;
+  /*  background-image: url("https://wallpaperaccess.com/full/250472.jpg");
+		background-attachment: fixed;
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+    width=78;
+    */
+    margin: 0;
+    padding: 0;
+
+}
+
+#particles-js{
+  height:100%
+}
+
+	/*url("https://wallpaperaccess.com/full/250472.jpg")*/
+
+
+.container1{
+    min-height: 66vh;
+    right: 300px;
+    display: flex;
+		background-color: #000000;
+    align-items: top;
+    justify-content: center;
+    text-align: center;
+	  padding: 0;
+    z-index: -1;
+    opacity: .85;
+    width: 69%;
+    left: 0px;
+    right: 0px;
+    height:inherit;
+
+}
+
+.container2{
+    min-height: 20vh;
+    display: flex;
+		background-color: #546e7a;
+    align-items: center;
+    justify-content: Left;
+		margin: 0;
+	  padding: 0;
+    opacity: .999;
+}
+
+p { /* TEXT FOR PARAGRAPH */
+	font-family: 'Baloo Thambi 2', cursive;
+	font-size: 1.9rem;
+  line-height: 1.5em;
+  opacity: .999;
+  color: #FFFFFF
+
+
+}
+/* Heading fonts and formats */
+
+h1 { /* TEXT FOR TITLE */
+	font-family: 'Julius Sans One', sans-serif;
+  font-size: 3.2rem;
+  line-height: 70%;
+	font-weight: bold;
+	text-align: center;
+  color: #FFFFFF;
+	margin: 0;
+  opacity: .999;
+
+}
+ h2 {/* TEXT FOR SUB-TITLE */
+	 font-family: 'Nothing You Could Do', cursive;
+    color: #FFFFFF;
+    font-size: 2em;
+    margin: 0;
+    padding: 0.1em;
+    padding-left: 1em;
+    text-align: center;
+    font-weight: plain;
+    opacity: .999;
+
+}
+
+h3 {/* TEXT FOR "CONTACT ME" */
+		font-family: 'Rock Salt', cursive;
+    color: #FFFFFF;
+    font-size: 2em;
+    margin: 0;
+    padding: 0.1em;
+    padding-left: 1em;
+    text-align: center;
+    font-weight: plain;
+    opacity: .999;
+
+}
+
+h4 {/* TEXT FOR bullet points */
+	font-family: 'Indie Flower', cursive;
+    color: #FFFFFF;
+    font-size: 1.6em;
+    margin: 0;
+    padding-left: 1em;
+    text-align: left;
+    font-weight: plain;
+    opacity: .999;
+
+}
+h5 {/* TEXT FOR External Links HEADER */
+	font-family: 'Indie Flower', cursive;
+    color: #FFFFF;
+    font-size: 2.1em;
+    margin: 0;
+    padding: 0.1em;
+    text-align: left;
+    font-weight: bold;
+    opacity: .999;
+
+}
+
+h6 { /* TEXT FOR FOOTER  */
+    font-family: Skia, Futura, Verdana, Ariel;
+    color:#FFFFF;
+    font-size: 0.75em;
+    margin: 0;
+    padding: 0.1em;
+    padding-left: 1em;
+    text-align: center;
+    font-weight: plain;
+    opacity: .999;
+
+}
+
+/* Margins and alignment for images in the content division */
+#content img {
+            padding: 1px;
+            float: right;
+            margin: 0 0 1em 1em;
+        }
+a {
+    text-decoration: none;
+}
+
+/* Colors for linked text, before and after being clicked */
+a:link {
+    color: #FFFFF;
+}
+
+a:visited {
+    color: #FFFFF;
+}
+
+/* Page Layout */
+
+#header {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #FFFFFF;
+    opacity:.999
+    }
+
+#content {
+    margin-top: 10px;
+    color: #FFFFFF
+}
+
+/* Layout for divisions containing images and their captions */
+#picture {
+    float: left;
+    font-size: 8pt;
+    margin: 2 2 2em 1.8em;
+    opacity: .999;
+}
+
+#footer {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #FFFFFF
+}
