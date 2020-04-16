@@ -4,6 +4,7 @@ window.onload = function() {
     color: ['#FFFFFF', '#000000', '#eeeeee'],
     speed: 1,
     connectParticles: true,
-    maxParticles: 250,
+    maxParticles: 200,
   });
+
 };

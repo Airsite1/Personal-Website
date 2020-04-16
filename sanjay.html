@@ -44,8 +44,8 @@
 
 
 		<!-- PARAGRAPH -->
+		<!-- IMAGE  -->
 		<div>
-			<!-- IMAGE  -->
 			<div id="picture">
 				<img src=https://www.terpconnect.umd.edu/~sanjays/Personal%20Website/sanjay.jpg height=400 border="10"><br>
 			</div>
@@ -60,45 +60,115 @@
 					projects and make an impact on my community.
 				</p>
 			</div>
-		</div>
 
-		<!-- EXTERNAL LINKS -->
-		<br>
-		<br>
+			<!-- Collapsibles  -->
+			<div>
 
-		<!--  <div class="container2"> -->
-		<br>
+				<body>
+					<h2>Projects: </h2>
+					<button class="collapsible">HooHacks 2020:</button>
+					<div class="content">
+						<h4>
+							Built a website that visualized and alerted users of predicted
+							Covid19 cases–– estimated by our Keras deep learning time-series
+							model–– using GCP’s Maps API.
+							I worked on coding an interface for our website with the using GCP’s Maps API.
+							In addition, I contributed to researching the deep learning model used in the group project.
+							I used Python, Keras, Google Cloud Platform, JavaScript, and HTML.
 
-		<!--  </div> -->
+						</h4>
+					</div>
+					<button class="collapsible">Stock Prediction: </button>
+					<div class="content">
+						<h4>
+							Implemented data visualization and developed a Deep Learning NLP
+							Model to predict TSLA (Tesla) stock price using Keras Deep
+							Learning API. Currently working on integrating sentiment analysis for
+							effective stock prediction.
+
+						</h4>
+					</div>
+					<button class="collapsible">BRFSS Regression Analysis: </button>
+					<div class="content">
+						<h4> Regression Analysis of The Behavioral Risk Factor Surveillance
+							System (BRFSS) dataset using ​R. Analyzed trends in data to
+							visualize relationships between mental health, sex, number of
+							children, blood pressure, and other variables.</h4>
+					</div>
+			</div>
+
+			<br>
+			<br>
+			<br>
 
 
-		<!-- MODALS TO ADD -->
-
-
-		<!-- EMBEDDED LINKS-->
 
 
 
-		<div>
-			<h3> <a href="mailto:sanjays@umd.edu">Contact me!</a>
-				<br>
-
-				<a href="https://www.linkedin.com/in/sanjaysrikumar/"><IMG SRC="https://cdn2.iconfinder.com/data/icons/popular-social-media-flat/48/Popular_Social_Media-22-512.png" width="128">
-					<a href="https://github.com/Airsite1"><IMG SRC="https://spemer.com/img/works/jekyll/github.png" width="350">
-						<a href=" https://www.terpconnect.umd.edu/~sanjays/Personal%20Website/Resume%cc%81.pdf"><IMG SRC="https://cdn.clipart.email/d108af075e80cd04bc9546f2be2bdf0e_custom-writing-term-papers-generic-high-quality-products-the-_745-750.png"
-								width="128">
-			</h3>
-		</div>
 
 
 
-		<!--Particle Background -->
-		<script src="personal.js"></script>
-		<script src="particles.min.js"></script>
+			<script>
+				var coll = document.getElementsByClassName("collapsible");
+				var i;
+
+				for (i = 0; i < coll.length; i++) {
+					coll[i].addEventListener("click", function() {
+						this.classList.toggle("active");
+						var content = this.nextElementSibling;
+						if (content.style.maxHeight) {
+							content.style.maxHeight = null;
+						} else {
+							content.style.maxHeight = content.scrollHeight + "px";
+						}
+					});
+				}
+			</script>
+
+	</body>
+	</div>
+
+
+	<!-- EXTERNAL LINKS -->
+	<br>
+	<br>
+
+	<!--  <div class="container2"> -->
+	<br>
+
+	<!--  </div> -->
+
+
+	<!-- MODALS TO ADD -->
+
+
+	<!-- EMBEDDED LINKS-->
+
+
+
+	<div>
+		<h3> <a href="mailto:sanjays@umd.edu">Contact me!</a>
+			<br>
+
+			<a href="https://www.linkedin.com/in/sanjaysrikumar/"><IMG SRC="https://cdn2.iconfinder.com/data/icons/popular-social-media-flat/48/Popular_Social_Media-22-512.png" width="128">
+				<a href="https://github.com/Airsite1"><IMG SRC="https://img.icons8.com/bubbles/2x/github.png" width="125">
+					<a href=" https://www.terpconnect.umd.edu/~sanjays/Personal%20Website/Resume%cc%81.pdf"><IMG SRC="https://cdn.clipart.email/d108af075e80cd04bc9546f2be2bdf0e_custom-writing-term-papers-generic-high-quality-products-the-_745-750.png"
+							width="150">
+		</h3>
+	</div>
+
+
+
+	<!--Particle Background -->
+	<script src="personal.js"></script>
+	<script src="particles.min.js"></script>
 	</body>
 	<!-- FOOTER -->
+	<script>
+
+	</script>
 	<div id="footer">
-		<h6>Last Updated April 12, 2020<h6>
+		<h6>Last Updated April 16, 2020<h6>
 	</div>
 
 </html>

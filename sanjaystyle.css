@@ -1,5 +1,4 @@
 html,
-
 .background {
   position: absolute;
   display: block;
@@ -8,9 +7,6 @@ html,
   z-index: 0;
 }
 
-/*
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23ff4f4f' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23aa0000' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23fa3260' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23b10022' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23f00872' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23b2003d' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23e00085' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23ac0057' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23c90098' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%239e0071' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23aa00aa' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23880088' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
-*/
 body {
     background-color: #000000;
     margin: 0;
@@ -20,7 +16,6 @@ body {
 #particles-js{
   height:100%
 }
-
 
 .container1{
     min-height: 50vh;
@@ -35,8 +30,8 @@ body {
     opacity: .85;
     height: 60%;
     min-width:100px;
+    overflow: auto;
 }
-
 
 p { /* TEXT FOR PARAGRAPH */
 	font-family: 'Baloo Thambi 2', cursive;
@@ -50,7 +45,7 @@ p { /* TEXT FOR PARAGRAPH */
 /* Heading fonts and formats */
 
 h1 { /* TEXT FOR TITLE */
-	font-family: 'Julius Sans One', sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
   font-size: 3.2rem;
   line-height: 70%;
 	font-weight: bold;
@@ -83,20 +78,19 @@ h3 {/* TEXT FOR "CONTACT ME" */
     text-align: center;
     font-weight: plain;
     opacity: .999;
-
 }
 
 h4 {/* TEXT FOR bullet points */
-	font-family: 'Indie Flower', cursive;
-    color: #FFFFFF;
-    font-size: 1.6em;
+  font-family: 'Baloo Thambi 2', cursive;
+    color: #000000;
+    font-size: 1.4em;
     margin: 0;
     padding-left: 1em;
     text-align: left;
     font-weight: plain;
     opacity: .999;
-
 }
+
 h5 {/* TEXT FOR External Links HEADER */
 	font-family: 'Indie Flower', cursive;
     color: #FFFFF;
@@ -119,8 +113,35 @@ h6 { /* TEXT FOR FOOTER  */
     text-align: center;
     font-weight: plain;
     opacity: .999;
-
 }
+
+/*Collapsible*/
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  opacity:.85;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+  opacity:.999;
+}
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+  opacity:.85;
+}
+
 
 /* Margins and alignment for images in the content division */
 #content img {
