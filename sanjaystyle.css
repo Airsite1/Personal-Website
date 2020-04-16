@@ -13,27 +13,17 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 */
 body {
     background-color: #000000;
-  /*  background-image: url("https://wallpaperaccess.com/full/250472.jpg");
-		background-attachment: fixed;
-	  background-position: center;
-	  background-repeat: no-repeat;
-	  background-size: cover;
-    width=78;
-    */
     margin: 0;
     padding: 0;
-
 }
 
 #particles-js{
   height:100%
 }
 
-	/*url("https://wallpaperaccess.com/full/250472.jpg")*/
-
 
 .container1{
-    min-height: 66vh;
+    min-height: 50vh;
     right: 300px;
     display: flex;
 		background-color: #000000;
@@ -43,23 +33,10 @@ body {
 	  padding: 0;
     z-index: -1;
     opacity: .85;
-    width: 69%;
-    left: 0px;
-    right: 0px;
-    height:inherit;
-
+    height: 60%;
+    min-width:100px;
 }
 
-.container2{
-    min-height: 20vh;
-    display: flex;
-		background-color: #546e7a;
-    align-items: center;
-    justify-content: Left;
-		margin: 0;
-	  padding: 0;
-    opacity: .999;
-}
 
 p { /* TEXT FOR PARAGRAPH */
 	font-family: 'Baloo Thambi 2', cursive;
