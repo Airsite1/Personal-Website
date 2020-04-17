@@ -58,12 +58,12 @@ h1 { /* TEXT FOR TITLE */
  h2 {/* TEXT FOR SUB-TITLE */
 	 font-family: 'Nothing You Could Do', cursive;
     color: #FFFFFF;
-    font-size: 2em;
+    font-size: 2.2em;
     margin: 0;
     padding: 0.1em;
     padding-left: 1em;
     text-align: center;
-    font-weight: plain;
+    font-weight: 1000;
     opacity: .999;
 
 }
@@ -83,23 +83,23 @@ h3 {/* TEXT FOR "CONTACT ME" */
 h4 {/* TEXT FOR bullet points */
   font-family: 'Baloo Thambi 2', cursive;
     color: #000000;
-    font-size: 1.4em;
+    font-size: 1.6em;
     margin: 0;
     padding-left: 1em;
     text-align: left;
-    font-weight: plain;
+    font-weight: 1;
     opacity: .999;
 }
 
-h5 {/* TEXT FOR External Links HEADER */
-	font-family: 'Indie Flower', cursive;
-    color: #FFFFF;
-    font-size: 2.1em;
-    margin: 0;
-    padding: 0.1em;
-    text-align: left;
-    font-weight: bold;
-    opacity: .999;
+h5 {/* TEXT FOR Collapsible */
+  font-family: 'Nothing You Could Do', cursive;
+   color: #FFFFFF;
+   font-size: 1.8em;
+   margin: 0;
+   font-weight: 1;
+   text-align: left;
+   font-weight:lighter;
+   opacity: .999;
 
 }
 
