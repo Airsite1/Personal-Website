@@ -13,6 +13,18 @@ html,
   overflow-y: scroll; //vertical
 }
 
+
+table {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+th, td {
+  border: 1px solid black;
+}
+
+
+
 /* Remove scrollbar space */
 ::-webkit-scrollbar {
     width: 0px;  /* Remove scrollbar space */
